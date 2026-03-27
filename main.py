@@ -27,6 +27,7 @@ from datetime import datetime, timedelta
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.primitives import hashes, hmac
 from cryptography.hazmat.primitives.asymmetric import rsa, padding as asym_padding
+from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
 from PIL import Image
 import psutil
